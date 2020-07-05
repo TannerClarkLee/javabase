@@ -1,8 +1,10 @@
 public class ProjectOne {
 
     public static void main(String[] args){
-        int x = 100;
-        byte y = (byte) x;
-        System.out.println("Hello World");
+        int a,b,c;
+        a = 50;
+        b = 60;
+        int max = (a>b) ? a : b;
+        System.out.println(max);
     }
 }
